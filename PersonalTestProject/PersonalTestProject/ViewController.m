@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "TestManager.h"
 
 @interface ViewController ()
 
@@ -13,10 +14,13 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"in ViewController");
+    
+    [TestManager.shareInstance runCPPDataTypeTester];
 }
 
 
