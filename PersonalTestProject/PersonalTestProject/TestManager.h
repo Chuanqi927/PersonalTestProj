@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)runCPPDataTypeTester;
 
+- (void)runCPPDelegateTester;
+
 @end
 
 NS_ASSUME_NONNULL_END

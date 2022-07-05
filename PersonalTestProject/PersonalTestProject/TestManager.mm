@@ -7,11 +7,11 @@
 
 #import "TestManager.h"
 #import "CPPDataTypeTest.hpp"
+#import "CPPSampleTestManager.hpp"
 
 @implementation TestManager
 
-+ (instancetype)shareInstance
-{
++ (instancetype)shareInstance {
     static TestManager *instance;
     static dispatch_once_t onceToken;
     
@@ -22,9 +22,12 @@
     return instance;
 }
 
-- (void)runCPPDataTypeTester
-{
+- (void)runCPPDataTypeTester {
     CPPDataTypeTester::getInstance()->testUnsignedDataTypes();
+}
+
+- (void)runCPPDelegateTester {
+//    CPPSampleTestManager::getInstance()->log(LogTypeError, "Hello From TestManager");
 }
 
 @end
