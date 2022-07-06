@@ -6,8 +6,10 @@
 //
 
 #import "TestManager.h"
-#import "CPPDataTypeTest.hpp"
-#import "CPPSampleTestManager.hpp"
+#import "CPPBridgeManager.h"
+#import "NativeCPPManager.h"
+#include "CPPDataTypeTest.hpp"
+#include "CPPSampleTestManager.hpp"
 
 @implementation TestManager
 
@@ -27,7 +29,13 @@
 }
 
 - (void)runCPPDelegateTester {
-//    CPPSampleTestManager::getInstance()->log(LogTypeError, "Hello From TestManager");
+    [CPPBridgeManager.sharedInstance setDelegate:NativeCPPManager.sharedInstance];
+    
+    // C++ log (MGEngine)
+    CPPSampleTestManager::getInstance()->log(LogTypeDefault, "Hello From C++");
+    
+    // native log (MGManager)
+    [NativeCPPManager.sharedInstance log:LogTypeDefault msg:@"Hello from Native"];
 }
 
 @end

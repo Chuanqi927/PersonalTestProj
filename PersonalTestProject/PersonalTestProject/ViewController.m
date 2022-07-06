@@ -16,10 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    NSLog(@"in ViewController");
     
-    [TestManager.shareInstance runCPPDataTypeTester];
+//    NSLog(@"in ViewController");
+    
+//    [TestManager.shareInstance runCPPDataTypeTester];
     
     [TestManager.shareInstance runCPPDelegateTester];
 

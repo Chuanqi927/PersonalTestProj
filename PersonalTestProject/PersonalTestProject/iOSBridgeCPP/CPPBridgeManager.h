@@ -9,7 +9,20 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CPPBridgeManager : NSObject
+enum LogType : int;
+
+@protocol CPPBridgeManagerDelegate <NSObject>
+
+@required
+- (void)log:(int)logType msg:(NSString*)message;
+
+@end
+
+@interface CPPBridgeManager : NSObject <CPPBridgeManagerDelegate>
+
+@property (nonatomic, weak) id<CPPBridgeManagerDelegate> delegate;
+
++ (instancetype)sharedInstance;
 
 @end
 

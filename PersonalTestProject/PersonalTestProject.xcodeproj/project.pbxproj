@@ -21,6 +21,7 @@
 		40B9587D2873C75700A3DC8E /* CPPSampleTestManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B9587B2873C75700A3DC8E /* CPPSampleTestManager.cpp */; };
 		40B958802873D81D00A3DC8E /* CPPSampleTestManagerDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B9587E2873D81D00A3DC8E /* CPPSampleTestManagerDelegate.cpp */; };
 		40B958842873E14400A3DC8E /* CPPBridgeManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 40B958832873E14400A3DC8E /* CPPBridgeManager.mm */; };
+		40B958872875AB8A00A3DC8E /* NativeCPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B958862875AB8A00A3DC8E /* NativeCPPManager.m */; };
 		40D0BEA5286BFDC8001B6654 /* CPPDataTypeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40D0BEA3286BFDC8001B6654 /* CPPDataTypeTest.cpp */; };
 		40D0BEA8286C029B001B6654 /* TestManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 40D0BEA7286C029B001B6654 /* TestManager.mm */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,8 @@
 		40B9587F2873D81D00A3DC8E /* CPPSampleTestManagerDelegate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPPSampleTestManagerDelegate.hpp; sourceTree = "<group>"; };
 		40B958822873E14400A3DC8E /* CPPBridgeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPPBridgeManager.h; sourceTree = "<group>"; };
 		40B958832873E14400A3DC8E /* CPPBridgeManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPPBridgeManager.mm; sourceTree = "<group>"; };
+		40B958852875AB8A00A3DC8E /* NativeCPPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeCPPManager.h; sourceTree = "<group>"; };
+		40B958862875AB8A00A3DC8E /* NativeCPPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeCPPManager.m; sourceTree = "<group>"; };
 		40D0BEA3286BFDC8001B6654 /* CPPDataTypeTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPPDataTypeTest.cpp; sourceTree = "<group>"; };
 		40D0BEA4286BFDC8001B6654 /* CPPDataTypeTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPPDataTypeTest.hpp; sourceTree = "<group>"; };
 		40D0BEA6286C029A001B6654 /* TestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 			children = (
 				40B958822873E14400A3DC8E /* CPPBridgeManager.h */,
 				40B958832873E14400A3DC8E /* CPPBridgeManager.mm */,
+				40B958852875AB8A00A3DC8E /* NativeCPPManager.h */,
+				40B958862875AB8A00A3DC8E /* NativeCPPManager.m */,
 			);
 			path = iOSBridgeCPP;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B958872875AB8A00A3DC8E /* NativeCPPManager.m in Sources */,
 				40794C972861B5E800DED5E5 /* ViewController.m in Sources */,
 				40B9587D2873C75700A3DC8E /* CPPSampleTestManager.cpp in Sources */,
 				40B958842873E14400A3DC8E /* CPPBridgeManager.mm in Sources */,
