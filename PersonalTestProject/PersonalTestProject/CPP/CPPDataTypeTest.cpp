@@ -29,3 +29,13 @@ void CPPDataTypeTester::testUnsignedDataTypes()
     std::cout << i - u << std::endl;        // 0
     std::cout << u - i << std::endl;        // 0
 }
+
+void CPPDataTypeTester::testPointerDeletion() {
+    int *a = new int;
+    int *b = a;
+    delete a;
+    a = nullptr;
+    if (a != nullptr) {
+        delete b;
+    }
+}
