@@ -19,9 +19,11 @@
     
 //    NSLog(@"in ViewController");
     
-    [TestManager.shareInstance runCPPDataTypeTester];
+//    [TestManager.shareInstance runCPPDataTypeTester];
     
 //    [TestManager.shareInstance runCPPDelegateTester];
+    
+    [TestManager.shareInstance runOCNilObjTester];
 
 }
 

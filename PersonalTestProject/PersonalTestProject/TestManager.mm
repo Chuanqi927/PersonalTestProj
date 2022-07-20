@@ -39,4 +39,11 @@
     [NativeCPPManager.sharedInstance log:LogTypeDefault msg:@"Hello from Native"];
 }
 
+- (void)runOCNilObjTester {
+    NSString *testStr = @"1234";
+    NSLog(@"testStr length: %lu", testStr.length);
+    testStr = nil;
+    NSLog(@"testStr length: %lu", testStr.length);
+}
+
 @end
