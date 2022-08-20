@@ -10,6 +10,7 @@
 #import "NativeCPPManager.h"
 #include "CPPDataTypeTest.hpp"
 #include "CPPSampleTestManager.hpp"
+#include "LCManager.hpp"
 
 @implementation TestManager
 
@@ -44,6 +45,11 @@
     NSLog(@"testStr length: %lu", testStr.length);
     testStr = nil;
     NSLog(@"testStr length: %lu", testStr.length);
+}
+
+- (void)runLCTester {
+    LCManager *manager = new LCManager();
+    manager->testOnProblemNumber(76);
 }
 
 @end

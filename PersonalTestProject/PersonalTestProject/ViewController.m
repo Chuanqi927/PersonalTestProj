@@ -23,7 +23,9 @@
     
 //    [TestManager.shareInstance runCPPDelegateTester];
     
-    [TestManager.shareInstance runOCNilObjTester];
+//    [TestManager.shareInstance runOCNilObjTester];
+    
+    [TestManager.shareInstance runLCTester];
 
 }
 

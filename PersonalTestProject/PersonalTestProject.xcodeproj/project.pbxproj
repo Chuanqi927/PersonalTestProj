@@ -24,6 +24,29 @@
 		40B958872875AB8A00A3DC8E /* NativeCPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B958862875AB8A00A3DC8E /* NativeCPPManager.m */; };
 		40D0BEA5286BFDC8001B6654 /* CPPDataTypeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40D0BEA3286BFDC8001B6654 /* CPPDataTypeTest.cpp */; };
 		40D0BEA8286C029B001B6654 /* TestManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 40D0BEA7286C029B001B6654 /* TestManager.mm */; };
+		40EC800F28B0DB8900C929E4 /* LC27.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FF828B0DB8800C929E4 /* LC27.cpp */; };
+		40EC801028B0DB8900C929E4 /* LC704.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FF928B0DB8800C929E4 /* LC704.cpp */; };
+		40EC801128B0DB8900C929E4 /* LC19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FFA28B0DB8800C929E4 /* LC19.cpp */; };
+		40EC801228B0DB8900C929E4 /* LC83.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FFB28B0DB8800C929E4 /* LC83.cpp */; };
+		40EC801328B0DB8900C929E4 /* LC26.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FFC28B0DB8800C929E4 /* LC26.cpp */; };
+		40EC801428B0DB8900C929E4 /* LC141.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FFD28B0DB8800C929E4 /* LC141.cpp */; };
+		40EC801528B0DB8900C929E4 /* LC2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FFE28B0DB8800C929E4 /* LC2.cpp */; };
+		40EC801628B0DB8900C929E4 /* LC142.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FFF28B0DB8800C929E4 /* LC142.cpp */; };
+		40EC801728B0DB8900C929E4 /* LC160.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800028B0DB8800C929E4 /* LC160.cpp */; };
+		40EC801828B0DB8900C929E4 /* LC23.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800128B0DB8800C929E4 /* LC23.cpp */; };
+		40EC801928B0DB8900C929E4 /* LC209.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800228B0DB8900C929E4 /* LC209.cpp */; };
+		40EC801A28B0DB8900C929E4 /* LC24.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800328B0DB8900C929E4 /* LC24.cpp */; };
+		40EC801B28B0DB8900C929E4 /* LC844.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800428B0DB8900C929E4 /* LC844.cpp */; };
+		40EC801C28B0DB8900C929E4 /* LC904.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800528B0DB8900C929E4 /* LC904.cpp */; };
+		40EC801D28B0DB8900C929E4 /* LC977.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800628B0DB8900C929E4 /* LC977.cpp */; };
+		40EC801E28B0DB8900C929E4 /* LC13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800828B0DB8900C929E4 /* LC13.cpp */; };
+		40EC801F28B0DB8900C929E4 /* LC25.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800928B0DB8900C929E4 /* LC25.cpp */; };
+		40EC802028B0DB8900C929E4 /* LC76.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800A28B0DB8900C929E4 /* LC76.cpp */; };
+		40EC802128B0DB8900C929E4 /* LC283.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800B28B0DB8900C929E4 /* LC283.cpp */; };
+		40EC802228B0DB8900C929E4 /* LC92.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800C28B0DB8900C929E4 /* LC92.cpp */; };
+		40EC802328B0DB8900C929E4 /* LC206.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800D28B0DB8900C929E4 /* LC206.cpp */; };
+		40EC802428B0DB8900C929E4 /* LC21.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800E28B0DB8900C929E4 /* LC21.cpp */; };
+		40EC802728B0DBCB00C929E4 /* LCManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC802528B0DBCB00C929E4 /* LCManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +98,31 @@
 		40D0BEA4286BFDC8001B6654 /* CPPDataTypeTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPPDataTypeTest.hpp; sourceTree = "<group>"; };
 		40D0BEA6286C029A001B6654 /* TestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
 		40D0BEA7286C029B001B6654 /* TestManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestManager.mm; sourceTree = "<group>"; };
+		40EC7FF828B0DB8800C929E4 /* LC27.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC27.cpp; sourceTree = "<group>"; };
+		40EC7FF928B0DB8800C929E4 /* LC704.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC704.cpp; sourceTree = "<group>"; };
+		40EC7FFA28B0DB8800C929E4 /* LC19.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC19.cpp; sourceTree = "<group>"; };
+		40EC7FFB28B0DB8800C929E4 /* LC83.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC83.cpp; sourceTree = "<group>"; };
+		40EC7FFC28B0DB8800C929E4 /* LC26.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC26.cpp; sourceTree = "<group>"; };
+		40EC7FFD28B0DB8800C929E4 /* LC141.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC141.cpp; sourceTree = "<group>"; };
+		40EC7FFE28B0DB8800C929E4 /* LC2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC2.cpp; sourceTree = "<group>"; };
+		40EC7FFF28B0DB8800C929E4 /* LC142.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC142.cpp; sourceTree = "<group>"; };
+		40EC800028B0DB8800C929E4 /* LC160.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC160.cpp; sourceTree = "<group>"; };
+		40EC800128B0DB8800C929E4 /* LC23.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC23.cpp; sourceTree = "<group>"; };
+		40EC800228B0DB8900C929E4 /* LC209.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC209.cpp; sourceTree = "<group>"; };
+		40EC800328B0DB8900C929E4 /* LC24.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC24.cpp; sourceTree = "<group>"; };
+		40EC800428B0DB8900C929E4 /* LC844.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC844.cpp; sourceTree = "<group>"; };
+		40EC800528B0DB8900C929E4 /* LC904.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC904.cpp; sourceTree = "<group>"; };
+		40EC800628B0DB8900C929E4 /* LC977.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC977.cpp; sourceTree = "<group>"; };
+		40EC800728B0DB8900C929E4 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		40EC800828B0DB8900C929E4 /* LC13.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC13.cpp; sourceTree = "<group>"; };
+		40EC800928B0DB8900C929E4 /* LC25.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC25.cpp; sourceTree = "<group>"; };
+		40EC800A28B0DB8900C929E4 /* LC76.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC76.cpp; sourceTree = "<group>"; };
+		40EC800B28B0DB8900C929E4 /* LC283.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC283.cpp; sourceTree = "<group>"; };
+		40EC800C28B0DB8900C929E4 /* LC92.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC92.cpp; sourceTree = "<group>"; };
+		40EC800D28B0DB8900C929E4 /* LC206.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC206.cpp; sourceTree = "<group>"; };
+		40EC800E28B0DB8900C929E4 /* LC21.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC21.cpp; sourceTree = "<group>"; };
+		40EC802528B0DBCB00C929E4 /* LCManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LCManager.cpp; sourceTree = "<group>"; };
+		40EC802628B0DBCB00C929E4 /* LCManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LCManager.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +173,7 @@
 		40794C8E2861B5E800DED5E5 /* PersonalTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				40EC7FF728B0DB2C00C929E4 /* LeetcodePractice */,
 				40B958812873E0D600A3DC8E /* iOSBridgeCPP */,
 				40D0BEA2286BFD92001B6654 /* CPP */,
 				40794CCD2861BF7400DED5E5 /* CustomizedViews */,
@@ -193,6 +242,38 @@
 				40B9587F2873D81D00A3DC8E /* CPPSampleTestManagerDelegate.hpp */,
 			);
 			path = CPP;
+			sourceTree = "<group>";
+		};
+		40EC7FF728B0DB2C00C929E4 /* LeetcodePractice */ = {
+			isa = PBXGroup;
+			children = (
+				40EC7FFE28B0DB8800C929E4 /* LC2.cpp */,
+				40EC800828B0DB8900C929E4 /* LC13.cpp */,
+				40EC7FFA28B0DB8800C929E4 /* LC19.cpp */,
+				40EC800E28B0DB8900C929E4 /* LC21.cpp */,
+				40EC800128B0DB8800C929E4 /* LC23.cpp */,
+				40EC800328B0DB8900C929E4 /* LC24.cpp */,
+				40EC800928B0DB8900C929E4 /* LC25.cpp */,
+				40EC7FFC28B0DB8800C929E4 /* LC26.cpp */,
+				40EC7FF828B0DB8800C929E4 /* LC27.cpp */,
+				40EC800A28B0DB8900C929E4 /* LC76.cpp */,
+				40EC7FFB28B0DB8800C929E4 /* LC83.cpp */,
+				40EC800C28B0DB8900C929E4 /* LC92.cpp */,
+				40EC7FFD28B0DB8800C929E4 /* LC141.cpp */,
+				40EC7FFF28B0DB8800C929E4 /* LC142.cpp */,
+				40EC800028B0DB8800C929E4 /* LC160.cpp */,
+				40EC800D28B0DB8900C929E4 /* LC206.cpp */,
+				40EC800228B0DB8900C929E4 /* LC209.cpp */,
+				40EC800B28B0DB8900C929E4 /* LC283.cpp */,
+				40EC7FF928B0DB8800C929E4 /* LC704.cpp */,
+				40EC800428B0DB8900C929E4 /* LC844.cpp */,
+				40EC800528B0DB8900C929E4 /* LC904.cpp */,
+				40EC800628B0DB8900C929E4 /* LC977.cpp */,
+				40EC800728B0DB8900C929E4 /* ListNode.h */,
+				40EC802528B0DBCB00C929E4 /* LCManager.cpp */,
+				40EC802628B0DBCB00C929E4 /* LCManager.hpp */,
+			);
+			path = LeetcodePractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,16 +406,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EC801E28B0DB8900C929E4 /* LC13.cpp in Sources */,
+				40EC802328B0DB8900C929E4 /* LC206.cpp in Sources */,
+				40EC802228B0DB8900C929E4 /* LC92.cpp in Sources */,
+				40EC801D28B0DB8900C929E4 /* LC977.cpp in Sources */,
+				40EC801428B0DB8900C929E4 /* LC141.cpp in Sources */,
+				40EC801F28B0DB8900C929E4 /* LC25.cpp in Sources */,
+				40EC802428B0DB8900C929E4 /* LC21.cpp in Sources */,
+				40EC801B28B0DB8900C929E4 /* LC844.cpp in Sources */,
+				40EC801328B0DB8900C929E4 /* LC26.cpp in Sources */,
 				40B958872875AB8A00A3DC8E /* NativeCPPManager.m in Sources */,
+				40EC801528B0DB8900C929E4 /* LC2.cpp in Sources */,
 				40794C972861B5E800DED5E5 /* ViewController.m in Sources */,
 				40B9587D2873C75700A3DC8E /* CPPSampleTestManager.cpp in Sources */,
 				40B958842873E14400A3DC8E /* CPPBridgeManager.mm in Sources */,
 				40794C912861B5E800DED5E5 /* AppDelegate.m in Sources */,
 				40794CD02861BF9100DED5E5 /* ProgressBarView.m in Sources */,
+				40EC802728B0DBCB00C929E4 /* LCManager.cpp in Sources */,
+				40EC801828B0DB8900C929E4 /* LC23.cpp in Sources */,
+				40EC801128B0DB8900C929E4 /* LC19.cpp in Sources */,
+				40EC801628B0DB8900C929E4 /* LC142.cpp in Sources */,
+				40EC802128B0DB8900C929E4 /* LC283.cpp in Sources */,
 				40794CA22861B5E900DED5E5 /* main.m in Sources */,
+				40EC801728B0DB8900C929E4 /* LC160.cpp in Sources */,
+				40EC801028B0DB8900C929E4 /* LC704.cpp in Sources */,
+				40EC801228B0DB8900C929E4 /* LC83.cpp in Sources */,
 				40D0BEA8286C029B001B6654 /* TestManager.mm in Sources */,
+				40EC801A28B0DB8900C929E4 /* LC24.cpp in Sources */,
+				40EC801C28B0DB8900C929E4 /* LC904.cpp in Sources */,
 				40794C942861B5E800DED5E5 /* SceneDelegate.m in Sources */,
+				40EC801928B0DB8900C929E4 /* LC209.cpp in Sources */,
+				40EC800F28B0DB8900C929E4 /* LC27.cpp in Sources */,
 				40D0BEA5286BFDC8001B6654 /* CPPDataTypeTest.cpp in Sources */,
+				40EC802028B0DB8900C929E4 /* LC76.cpp in Sources */,
 				40B958802873D81D00A3DC8E /* CPPSampleTestManagerDelegate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

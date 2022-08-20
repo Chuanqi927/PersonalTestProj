@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)runOCNilObjTester;
 
+- (void)runLCTester;
+
 @end
 
 NS_ASSUME_NONNULL_END
