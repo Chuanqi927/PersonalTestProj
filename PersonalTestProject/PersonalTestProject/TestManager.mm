@@ -52,9 +52,4 @@
     manager.runTestCaseForCurrProblem();
 }
 
-- (void)runLCTesterForProblem:(int)num {
-    LCManager *manager = new LCManager();
-    manager->testOnProblemNumber(num);
-}
-
 @end

@@ -9,19 +9,8 @@
 #include <algorithm>
 #include <iostream>
 #include "LC76.cpp"
+#include "LC54.cpp"
 
 void LCManager::runTestCaseForCurrProblem() {
-    LCTester76();
-}
-
-void LCManager::testOnProblemNumber(int problemNum) {
-    int n =  max(problemNum, 0);
-    switch (n) {
-        case 76:
-            LCTester76();
-            break;
-            
-        default:
-            break;
-    }
+    LCTester54();
 }

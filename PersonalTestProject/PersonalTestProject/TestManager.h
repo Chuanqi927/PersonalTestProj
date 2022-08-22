@@ -21,8 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)runLCTester;
 
-- (void)runLCTesterForProblem:(int)num;
-
 @end
 
 NS_ASSUME_NONNULL_END

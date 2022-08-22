@@ -47,6 +47,7 @@
 		40EC802328B0DB8900C929E4 /* LC206.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800D28B0DB8900C929E4 /* LC206.cpp */; };
 		40EC802428B0DB8900C929E4 /* LC21.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800E28B0DB8900C929E4 /* LC21.cpp */; };
 		40EC802728B0DBCB00C929E4 /* LCManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC802528B0DBCB00C929E4 /* LCManager.cpp */; };
+		40EC802928B0F59700C929E4 /* LC54.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC802828B0F59700C929E4 /* LC54.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		40EC800E28B0DB8900C929E4 /* LC21.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC21.cpp; sourceTree = "<group>"; };
 		40EC802528B0DBCB00C929E4 /* LCManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LCManager.cpp; sourceTree = "<group>"; };
 		40EC802628B0DBCB00C929E4 /* LCManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LCManager.hpp; sourceTree = "<group>"; };
+		40EC802828B0F59700C929E4 /* LC54.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC54.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				40EC800928B0DB8900C929E4 /* LC25.cpp */,
 				40EC7FFC28B0DB8800C929E4 /* LC26.cpp */,
 				40EC7FF828B0DB8800C929E4 /* LC27.cpp */,
+				40EC802828B0F59700C929E4 /* LC54.cpp */,
 				40EC800A28B0DB8900C929E4 /* LC76.cpp */,
 				40EC7FFB28B0DB8800C929E4 /* LC83.cpp */,
 				40EC800C28B0DB8900C929E4 /* LC92.cpp */,
@@ -269,9 +272,9 @@
 				40EC800428B0DB8900C929E4 /* LC844.cpp */,
 				40EC800528B0DB8900C929E4 /* LC904.cpp */,
 				40EC800628B0DB8900C929E4 /* LC977.cpp */,
-				40EC800728B0DB8900C929E4 /* ListNode.h */,
 				40EC802528B0DBCB00C929E4 /* LCManager.cpp */,
 				40EC802628B0DBCB00C929E4 /* LCManager.hpp */,
+				40EC800728B0DB8900C929E4 /* ListNode.h */,
 			);
 			path = LeetcodePractice;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				40794CA22861B5E900DED5E5 /* main.m in Sources */,
 				40EC801728B0DB8900C929E4 /* LC160.cpp in Sources */,
 				40EC801028B0DB8900C929E4 /* LC704.cpp in Sources */,
+				40EC802928B0F59700C929E4 /* LC54.cpp in Sources */,
 				40EC801228B0DB8900C929E4 /* LC83.cpp in Sources */,
 				40D0BEA8286C029B001B6654 /* TestManager.mm in Sources */,
 				40EC801A28B0DB8900C929E4 /* LC24.cpp in Sources */,

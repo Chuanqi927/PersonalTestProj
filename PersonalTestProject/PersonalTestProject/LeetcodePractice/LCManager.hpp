@@ -15,8 +15,6 @@ public:
     
     void runTestCaseForCurrProblem();
     
-    void testOnProblemNumber(int problemNum);
-    
 };
 
 #endif /* LCManager_hpp */
