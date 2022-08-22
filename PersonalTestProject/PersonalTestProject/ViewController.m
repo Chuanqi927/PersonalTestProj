@@ -25,7 +25,7 @@
     
 //    [TestManager.shareInstance runOCNilObjTester];
     
-    [TestManager.shareInstance runLCTesterForProblem:76];
+    [TestManager.shareInstance runLCTester];
 
 }
 

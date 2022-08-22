@@ -13,6 +13,8 @@
 class LCManager {
 public:
     
+    void runTestCaseForCurrProblem();
+    
     void testOnProblemNumber(int problemNum);
     
 };

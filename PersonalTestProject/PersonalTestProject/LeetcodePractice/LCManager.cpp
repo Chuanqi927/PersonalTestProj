@@ -10,6 +10,10 @@
 #include <iostream>
 #include "LC76.cpp"
 
+void LCManager::runTestCaseForCurrProblem() {
+    LCTester76();
+}
+
 void LCManager::testOnProblemNumber(int problemNum) {
     int n =  max(problemNum, 0);
     switch (n) {
@@ -21,7 +25,3 @@ void LCManager::testOnProblemNumber(int problemNum) {
             break;
     }
 }
-
-
-
-

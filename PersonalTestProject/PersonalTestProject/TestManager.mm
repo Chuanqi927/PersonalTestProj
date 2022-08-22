@@ -47,6 +47,11 @@
     NSLog(@"testStr length: %lu", testStr.length);
 }
 
+- (void)runLCTester {
+    LCManager manager;
+    manager.runTestCaseForCurrProblem();
+}
+
 - (void)runLCTesterForProblem:(int)num {
     LCManager *manager = new LCManager();
     manager->testOnProblemNumber(num);
