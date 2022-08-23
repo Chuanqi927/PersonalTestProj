@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10C3DB8A28B47718002630AB /* CPPComUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10C3DB8828B47717002630AB /* CPPComUtils.cpp */; };
 		40794C912861B5E800DED5E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C902861B5E800DED5E5 /* AppDelegate.m */; };
 		40794C942861B5E800DED5E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C932861B5E800DED5E5 /* SceneDelegate.m */; };
 		40794C972861B5E800DED5E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C962861B5E800DED5E5 /* ViewController.m */; };
@@ -68,6 +69,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C3DB8828B47717002630AB /* CPPComUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPPComUtils.cpp; sourceTree = "<group>"; };
+		10C3DB8928B47717002630AB /* CPPComUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPPComUtils.hpp; sourceTree = "<group>"; };
 		40794C8C2861B5E800DED5E5 /* PersonalTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40794C8F2861B5E800DED5E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40794C902861B5E800DED5E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -242,6 +245,8 @@
 				40B9587C2873C75700A3DC8E /* CPPSampleTestManager.hpp */,
 				40B9587E2873D81D00A3DC8E /* CPPSampleTestManagerDelegate.cpp */,
 				40B9587F2873D81D00A3DC8E /* CPPSampleTestManagerDelegate.hpp */,
+				10C3DB8828B47717002630AB /* CPPComUtils.cpp */,
+				10C3DB8928B47717002630AB /* CPPComUtils.hpp */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
@@ -416,6 +421,7 @@
 				40EC801428B0DB8900C929E4 /* LC141.cpp in Sources */,
 				40EC801F28B0DB8900C929E4 /* LC25.cpp in Sources */,
 				40EC802428B0DB8900C929E4 /* LC21.cpp in Sources */,
+				10C3DB8A28B47718002630AB /* CPPComUtils.cpp in Sources */,
 				40EC801B28B0DB8900C929E4 /* LC844.cpp in Sources */,
 				40EC801328B0DB8900C929E4 /* LC26.cpp in Sources */,
 				40B958872875AB8A00A3DC8E /* NativeCPPManager.m in Sources */,

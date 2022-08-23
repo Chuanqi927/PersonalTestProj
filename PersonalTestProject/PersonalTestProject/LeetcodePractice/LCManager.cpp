@@ -8,9 +8,11 @@
 #include "LCManager.hpp"
 #include <algorithm>
 #include <iostream>
+#include "LC13.cpp"
 #include "LC76.cpp"
 #include "LC54.cpp"
 
 void LCManager::runTestCaseForCurrProblem() {
-    LCTester54();
+//    LCTester54();
+    LCTester13();
 }

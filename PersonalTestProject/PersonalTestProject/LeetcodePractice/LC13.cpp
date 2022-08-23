@@ -1,4 +1,4 @@
-#include "ListNode.h"
+#include "../CPP/CPPComUtils.hpp"
 
 /**
  * Definition for singly-linked list.
@@ -10,7 +10,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
+class Solution13 {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         if (head == nullptr || n == 0) {
@@ -46,15 +46,11 @@ public:
         
         return dummyHead->next;
     }
-    
-    int main () {
-        ListNode *head = new ListNode(1, new ListNode(2));
-        printLinkedList(head);
-        Solution *obj = new Solution();
-        ListNode *newHead = obj->removeNthFromEnd(head, 1);
-        printLinkedList(newHead);
-        return 0;
-    }
-
 };
 
+static void LCTester13() {
+    ListNode *head = new ListNode(1, new ListNode(2));
+    Solution13 obj;
+    ListNode *newHead = obj.removeNthFromEnd(head, 1);
+    CPPComUtils::printLinkedList(newHead);
+}
