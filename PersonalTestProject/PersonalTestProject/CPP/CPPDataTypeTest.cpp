@@ -54,7 +54,7 @@ void CPPDataTypeTester::testVariableInitialization() {
     
     int j = 3.14;
     // -> ok: j = 3;
-    std::cout << j <<std::endl;
+//    std::cout << j <<std::endl;
     
 //    ======== Practice 2.10 ========
     std::string globale_str;            // -> ""
@@ -74,8 +74,12 @@ void CPPDataTypeTester::testVariableInitialization() {
     extern int iz;
     // -> declare
     
-    int m=7;
-    auto n=m/2.0+1;
-    printf("%d", n);
+    int i=100, sum=0;
+    for (int i=0; i!=10; i++) {
+        sum+=i;
+    }
+    std::cout << i << " " << sum << std::endl;
+    // -> i=100, sum=45
+    
 }
 
