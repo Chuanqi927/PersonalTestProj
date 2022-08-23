@@ -49,6 +49,7 @@
 		40EC802428B0DB8900C929E4 /* LC21.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC800E28B0DB8900C929E4 /* LC21.cpp */; };
 		40EC802728B0DBCB00C929E4 /* LCManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC802528B0DBCB00C929E4 /* LCManager.cpp */; };
 		40EC802928B0F59700C929E4 /* LC54.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC802828B0F59700C929E4 /* LC54.cpp */; };
+		40EC802B28B529F900C929E4 /* LC59.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC802A28B529F900C929E4 /* LC59.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		40EC802528B0DBCB00C929E4 /* LCManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LCManager.cpp; sourceTree = "<group>"; };
 		40EC802628B0DBCB00C929E4 /* LCManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LCManager.hpp; sourceTree = "<group>"; };
 		40EC802828B0F59700C929E4 /* LC54.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC54.cpp; sourceTree = "<group>"; };
+		40EC802A28B529F900C929E4 /* LC59.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC59.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 				40EC7FFC28B0DB8800C929E4 /* LC26.cpp */,
 				40EC7FF828B0DB8800C929E4 /* LC27.cpp */,
 				40EC802828B0F59700C929E4 /* LC54.cpp */,
+				40EC802A28B529F900C929E4 /* LC59.cpp */,
 				40EC800A28B0DB8900C929E4 /* LC76.cpp */,
 				40EC7FFB28B0DB8800C929E4 /* LC83.cpp */,
 				40EC800C28B0DB8900C929E4 /* LC92.cpp */,
@@ -430,6 +433,7 @@
 				40B9587D2873C75700A3DC8E /* CPPSampleTestManager.cpp in Sources */,
 				40B958842873E14400A3DC8E /* CPPBridgeManager.mm in Sources */,
 				40794C912861B5E800DED5E5 /* AppDelegate.m in Sources */,
+				40EC802B28B529F900C929E4 /* LC59.cpp in Sources */,
 				40794CD02861BF9100DED5E5 /* ProgressBarView.m in Sources */,
 				40EC802728B0DBCB00C929E4 /* LCManager.cpp in Sources */,
 				40EC801828B0DB8900C929E4 /* LC23.cpp in Sources */,
