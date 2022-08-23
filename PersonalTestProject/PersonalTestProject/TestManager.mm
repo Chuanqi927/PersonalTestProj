@@ -27,7 +27,8 @@
 
 - (void)runCPPDataTypeTester {
 //    CPPDataTypeTester::getInstance()->testUnsignedDataTypes();
-    CPPDataTypeTester::getInstance()->testPointerDeletion();
+//    CPPDataTypeTester::getInstance()->testPointerDeletion();
+    CPPDataTypeTester::getInstance()->testVariableInitialization();
 }
 
 - (void)runCPPDelegateTester {

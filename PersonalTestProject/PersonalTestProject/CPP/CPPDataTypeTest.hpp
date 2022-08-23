@@ -16,6 +16,7 @@ public:
     static CPPDataTypeTester* getInstance();
     void testUnsignedDataTypes();
     void testPointerDeletion();
+    void testVariableInitialization();
 };
 
 #endif /* CPPDataTypeTest_hpp */

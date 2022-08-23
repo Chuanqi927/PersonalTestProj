@@ -39,3 +39,43 @@ void CPPDataTypeTester::testPointerDeletion() {
         delete b;
     }
 }
+
+void CPPDataTypeTester::testVariableInitialization() {
+//    ======== Practice 2.9 ========
+//    std::cin >> int input_value;
+    // -> Expected '(' for function-style cast or type construction
+    
+//    int i = {3.14};
+    // -> Type 'double' cannot be narrowed to 'int' in initializer list
+    // -> Insert an explicit cast to silence this issue
+    
+//    double salary = wage = 999.99;
+    // -> error: Use of undeclared identifier 'wage'
+    
+    int j = 3.14;
+    // -> ok: j = 3;
+    std::cout << j <<std::endl;
+    
+//    ======== Practice 2.10 ========
+    std::string globale_str;            // -> ""
+    int global_int;                     // -> 0
+//    int main () {
+//        int local_int;              // -> undefined
+//        std::string local_str;     // -> undefined
+//    }
+    
+//    ======== Practice 2.11 ========
+//    extern int ix = 1024;
+    // -> 'extern' variable cannot have an initializer
+    
+    int iy;
+    // -> declare + define
+    
+    extern int iz;
+    // -> declare
+    
+    int m=7;
+    auto n=m/2.0+1;
+    printf("%d", n);
+}
+
