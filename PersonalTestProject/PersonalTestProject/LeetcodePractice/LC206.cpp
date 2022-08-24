@@ -49,6 +49,6 @@ public:
             prev = head;
             head = next;
         }
-        return prev;
+        return prev;    // 此时prev是原先的最后一个node，不过他的next反向指回去了
     }
 };
