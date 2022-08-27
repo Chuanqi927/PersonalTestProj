@@ -41,13 +41,13 @@ class Solution2 {
 public:
     ListNode* reverseList(ListNode* head) {
         ListNode *prev= nullptr;
-        ListNode *next;
-        while (head) {
-            next = head->next;      // record the next node to loop
-            head->next = prev;
+        ListNode *next, *curr = head;
+        while (curr) {
+            next = curr->next;      // record the next node to loop
+            curr->next = prev;
             // next iteration
-            prev = head;
-            head = next;
+            prev = curr;
+            curr = next;
         }
         return prev;    // 此时prev是原先的最后一个node，不过他的next反向指回去了
     }
