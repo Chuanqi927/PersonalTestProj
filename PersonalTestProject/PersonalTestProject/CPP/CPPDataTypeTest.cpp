@@ -81,5 +81,17 @@ void CPPDataTypeTester::testVariableInitialization() {
     std::cout << i << " " << sum << std::endl;
     // -> i=100, sum=45
     
+    //    ======== Practice 2.11 ========
+    int num, &numRef = num;
+    num = 5;
+    numRef = 10;
+    std::cout << num << " " << numRef << std::endl;
+    
+//MARK: Practice 2.21
+    int ival = 0;
+//    double *dp = &ival; Cannot initialize a variable of type 'double *' with an rvalue of type 'int *'
+//    int *ip = ival; Cannot initialize a variable of type 'int *' with an lvalue of type 'int'
+    int *p = &ival;
+    
 }
 
