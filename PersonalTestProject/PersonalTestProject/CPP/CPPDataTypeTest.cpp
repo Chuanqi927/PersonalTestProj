@@ -95,3 +95,42 @@ void CPPDataTypeTester::testVariableInitialization() {
     
 }
 
+static void CPPPrimerPractice_2_32() {
+//    int null = 0, *p = null;
+//     error-> Cannot initialize a variable of type 'int *' with an lvalue of type 'int'
+    
+    // fix:
+//    int null = 0, *p = &null;
+    
+    // or:
+//    int null = 0, *p = nullptr;
+}
+
+static void CPPPrimerPractice_2_35() {
+    // i is const int
+    const int i = 42;
+    
+    // j is int
+    auto j = i;
+    
+    // k is const int reference
+    const auto &k = i;
+    
+    // p i s pointer to const int
+    auto *p = &i;
+    
+    // j2 is const int, k2 is const int reference
+    const auto j2 = i, &k2 = i;
+    
+    // print i means int, and PKi means pointer to const int.
+    std::cout   << "j is "      << typeid(j).name()
+                << "\nk is "    << typeid(k).name()
+                << "\np is "    << typeid(p).name()
+                << "\nj2 is "   << typeid(j2).name()
+                << "\nk2 is "   << typeid(k2).name()
+                << std::endl;
+}
+
+void CPPDataTypeTester::testCPPPrimerPractice() {
+    CPPPrimerPractice_2_35();
+}
