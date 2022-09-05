@@ -95,6 +95,36 @@ void CPPDataTypeTester::testVariableInitialization() {
     
 }
 
+static void CPPPrimerPractice2_27() {
+//    int i = -1, &r = 0;     // error-> r must refer to an object
+//    int *const p2 = &i2;    // ok (suppose i2 is defined)
+//    const int i = -1, &r = 0;   // ok
+//    const int *const p3 = &i2;      // ok (suppose i2 is defined)
+//    const int *p1 = &i2;    // ok (suppose i2 is defined)
+//    const int &const r2;    // error-> Declaration of reference variable 'r2' requires an initializer
+//    const int i2 = i, &r2 = i;  // ok (suppose i is defined)
+}
+
+static void CPPPrimerPractice2_28() {
+//    int i, *const cp;
+    // Error: cp is const pointer to int -> must initialize
+//    int *p1, *const p2;
+    // Error: p2 is const pointer to int -> must initialize
+//    const int ic, &r = ic;
+    // Error: ic is const int, must initialize
+//    const int *const p3;
+    // Error: p3 is const pointer to const int, must initialize
+    const int *p;
+    // ok: p is pointer to const int
+}
+
+static void CPPPrimerPractice2_29() {
+    int *p1;
+    const int *const p3 = 0;
+//    p1 = p3;
+    // Error-> Assigning to 'int *' from 'const int *const' discards qualifiers
+}
+
 static void CPPPrimerPractice_2_32() {
 //    int null = 0, *p = null;
 //     error-> Cannot initialize a variable of type 'int *' with an lvalue of type 'int'
