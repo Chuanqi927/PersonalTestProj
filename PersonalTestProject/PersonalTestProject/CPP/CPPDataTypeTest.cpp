@@ -161,6 +161,26 @@ static void CPPPrimerPractice_2_35() {
                 << std::endl;
 }
 
+static void CPPPrimerPractice_2_36() {
+    int a = 3, b = 4;
+    decltype(a) c = a;
+    // c is int, equal to a
+    decltype((b)) d = a;
+    // d is int&, binds to a
+    ++c;
+    // c = 4
+    ++d;
+    // d = a = 4;
+}
+
+static void CPPPrimerPractice_2_37() {
+    int a = 3, b = 4;
+    decltype(a) c = a;
+    // c is int
+    decltype(a = b) d = a;
+    // d is int&, binds to a
+}
+
 void CPPDataTypeTester::testCPPPrimerPractice() {
     CPPPrimerPractice_2_35();
 }
