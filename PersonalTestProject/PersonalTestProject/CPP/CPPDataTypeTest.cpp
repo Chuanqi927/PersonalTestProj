@@ -181,6 +181,35 @@ static void CPPPrimerPractice_2_37() {
     // d is int&, binds to a
 }
 
+static void CPPPrimerPractice_4_4() {
+    int ans = 12/3*4+5*15+24%4/2;
+    std::cout << "4.4 ans: " << ans << std::endl;
+}
+
+static void CPPPrimerPractice_4_5() {
+    int ansA = -30*3+21/5;
+    int ansB = -30+3*21/5;
+    int ansC = 30/3*21%5;
+    int ansD = -30/3*21%4;
+    std::cout << "4.5 ansA: " << ansA << std::endl;
+    std::cout << "4.5 ansB: " << ansB << std::endl;
+    std::cout << "4.5 ansC: " << ansC << std::endl;
+    std::cout << "4.5 ansD: " << ansD << std::endl;
+}
+
+static bool CPPPrimerPractice_4_6(int input) {
+    return input & 0x1;
+}
+
+static void CPPPrimerPractice_4_7() {
+    short svalue = 32767;
+//    svalue++;  overflow
+    unsigned uivalue = 0;
+//    uivalue--; overflow
+    unsigned short usvalue = 65535;
+//    usvalue++; overflow
+}
+
 void CPPDataTypeTester::testCPPPrimerPractice() {
-    CPPPrimerPractice_2_35();
+    CPPPrimerPractice_4_5();
 }
