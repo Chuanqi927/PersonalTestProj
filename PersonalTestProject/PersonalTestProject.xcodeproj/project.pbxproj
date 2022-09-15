@@ -18,6 +18,8 @@
 		40310D3828C8EA0100ED78AF /* LC383.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3728C8EA0100ED78AF /* LC383.cpp */; };
 		40310D3A28CA39DD00ED78AF /* LC15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3928CA39DD00ED78AF /* LC15.cpp */; };
 		40310D3C28D21FFD00ED78AF /* LC18.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3B28D21FFD00ED78AF /* LC18.cpp */; };
+		40310D3E28D36DB200ED78AF /* LC344.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3D28D36DB200ED78AF /* LC344.cpp */; };
+		40310D4028D371B800ED78AF /* LC541.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3F28D371B800ED78AF /* LC541.cpp */; };
 		40794C912861B5E800DED5E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C902861B5E800DED5E5 /* AppDelegate.m */; };
 		40794C942861B5E800DED5E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C932861B5E800DED5E5 /* SceneDelegate.m */; };
 		40794C972861B5E800DED5E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C962861B5E800DED5E5 /* ViewController.m */; };
@@ -93,6 +95,8 @@
 		40310D3728C8EA0100ED78AF /* LC383.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC383.cpp; sourceTree = "<group>"; };
 		40310D3928CA39DD00ED78AF /* LC15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC15.cpp; sourceTree = "<group>"; };
 		40310D3B28D21FFD00ED78AF /* LC18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC18.cpp; sourceTree = "<group>"; };
+		40310D3D28D36DB200ED78AF /* LC344.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC344.cpp; sourceTree = "<group>"; };
+		40310D3F28D371B800ED78AF /* LC541.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC541.cpp; sourceTree = "<group>"; };
 		40794C8C2861B5E800DED5E5 /* PersonalTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40794C8F2861B5E800DED5E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40794C902861B5E800DED5E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -304,10 +308,12 @@
 				40EC800228B0DB8900C929E4 /* LC209.cpp */,
 				40310D2B28BFB96900ED78AF /* LC242.cpp */,
 				40EC800B28B0DB8900C929E4 /* LC283.cpp */,
+				40310D3D28D36DB200ED78AF /* LC344.cpp */,
 				40310D2D28C0DA6100ED78AF /* LC349.cpp */,
 				40310D2F28C0EC5500ED78AF /* LC350.cpp */,
 				40310D3728C8EA0100ED78AF /* LC383.cpp */,
 				40310D3528C7A05000ED78AF /* LC454.cpp */,
+				40310D3F28D371B800ED78AF /* LC541.cpp */,
 				40EC7FF928B0DB8800C929E4 /* LC704.cpp */,
 				40310D2928B7D11900ED78AF /* LC707.cpp */,
 				40EC800428B0DB8900C929E4 /* LC844.cpp */,
@@ -453,6 +459,7 @@
 				40EC801E28B0DB8900C929E4 /* LC13.cpp in Sources */,
 				40EC802328B0DB8900C929E4 /* LC206.cpp in Sources */,
 				40EC802228B0DB8900C929E4 /* LC92.cpp in Sources */,
+				40310D3E28D36DB200ED78AF /* LC344.cpp in Sources */,
 				40EC801D28B0DB8900C929E4 /* LC977.cpp in Sources */,
 				40EC801428B0DB8900C929E4 /* LC141.cpp in Sources */,
 				40EC801F28B0DB8900C929E4 /* LC25.cpp in Sources */,
@@ -484,6 +491,7 @@
 				40EC802928B0F59700C929E4 /* LC54.cpp in Sources */,
 				40EC801228B0DB8900C929E4 /* LC83.cpp in Sources */,
 				40310D3C28D21FFD00ED78AF /* LC18.cpp in Sources */,
+				40310D4028D371B800ED78AF /* LC541.cpp in Sources */,
 				40D0BEA8286C029B001B6654 /* TestManager.mm in Sources */,
 				40EC801A28B0DB8900C929E4 /* LC24.cpp in Sources */,
 				40310D3628C7A05000ED78AF /* LC454.cpp in Sources */,
