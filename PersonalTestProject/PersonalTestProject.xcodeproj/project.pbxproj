@@ -17,6 +17,7 @@
 		40310D3628C7A05000ED78AF /* LC454.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3528C7A05000ED78AF /* LC454.cpp */; };
 		40310D3828C8EA0100ED78AF /* LC383.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3728C8EA0100ED78AF /* LC383.cpp */; };
 		40310D3A28CA39DD00ED78AF /* LC15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3928CA39DD00ED78AF /* LC15.cpp */; };
+		40310D3C28D21FFD00ED78AF /* LC18.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3B28D21FFD00ED78AF /* LC18.cpp */; };
 		40794C912861B5E800DED5E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C902861B5E800DED5E5 /* AppDelegate.m */; };
 		40794C942861B5E800DED5E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C932861B5E800DED5E5 /* SceneDelegate.m */; };
 		40794C972861B5E800DED5E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C962861B5E800DED5E5 /* ViewController.m */; };
@@ -91,6 +92,7 @@
 		40310D3528C7A05000ED78AF /* LC454.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC454.cpp; sourceTree = "<group>"; };
 		40310D3728C8EA0100ED78AF /* LC383.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC383.cpp; sourceTree = "<group>"; };
 		40310D3928CA39DD00ED78AF /* LC15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC15.cpp; sourceTree = "<group>"; };
+		40310D3B28D21FFD00ED78AF /* LC18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC18.cpp; sourceTree = "<group>"; };
 		40794C8C2861B5E800DED5E5 /* PersonalTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40794C8F2861B5E800DED5E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40794C902861B5E800DED5E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				40EC7FFE28B0DB8800C929E4 /* LC2.cpp */,
 				40EC800828B0DB8900C929E4 /* LC13.cpp */,
 				40310D3928CA39DD00ED78AF /* LC15.cpp */,
+				40310D3B28D21FFD00ED78AF /* LC18.cpp */,
 				40EC7FFA28B0DB8800C929E4 /* LC19.cpp */,
 				40EC800E28B0DB8900C929E4 /* LC21.cpp */,
 				40EC800128B0DB8800C929E4 /* LC23.cpp */,
@@ -480,6 +483,7 @@
 				40EC801028B0DB8900C929E4 /* LC704.cpp in Sources */,
 				40EC802928B0F59700C929E4 /* LC54.cpp in Sources */,
 				40EC801228B0DB8900C929E4 /* LC83.cpp in Sources */,
+				40310D3C28D21FFD00ED78AF /* LC18.cpp in Sources */,
 				40D0BEA8286C029B001B6654 /* TestManager.mm in Sources */,
 				40EC801A28B0DB8900C929E4 /* LC24.cpp in Sources */,
 				40310D3628C7A05000ED78AF /* LC454.cpp in Sources */,
