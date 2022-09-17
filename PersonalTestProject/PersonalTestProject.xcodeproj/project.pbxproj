@@ -20,6 +20,7 @@
 		40310D3C28D21FFD00ED78AF /* LC18.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3B28D21FFD00ED78AF /* LC18.cpp */; };
 		40310D3E28D36DB200ED78AF /* LC344.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3D28D36DB200ED78AF /* LC344.cpp */; };
 		40310D4028D371B800ED78AF /* LC541.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D3F28D371B800ED78AF /* LC541.cpp */; };
+		40310D4228D4DB3500ED78AF /* ReplaceSpaceInStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D4128D4DB3500ED78AF /* ReplaceSpaceInStr.cpp */; };
 		40794C912861B5E800DED5E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C902861B5E800DED5E5 /* AppDelegate.m */; };
 		40794C942861B5E800DED5E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C932861B5E800DED5E5 /* SceneDelegate.m */; };
 		40794C972861B5E800DED5E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40794C962861B5E800DED5E5 /* ViewController.m */; };
@@ -97,6 +98,7 @@
 		40310D3B28D21FFD00ED78AF /* LC18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC18.cpp; sourceTree = "<group>"; };
 		40310D3D28D36DB200ED78AF /* LC344.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC344.cpp; sourceTree = "<group>"; };
 		40310D3F28D371B800ED78AF /* LC541.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC541.cpp; sourceTree = "<group>"; };
+		40310D4128D4DB3500ED78AF /* ReplaceSpaceInStr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReplaceSpaceInStr.cpp; sourceTree = "<group>"; };
 		40794C8C2861B5E800DED5E5 /* PersonalTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40794C8F2861B5E800DED5E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40794C902861B5E800DED5E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 				40EC802528B0DBCB00C929E4 /* LCManager.cpp */,
 				40EC802628B0DBCB00C929E4 /* LCManager.hpp */,
 				40EC800728B0DB8900C929E4 /* ListNode.h */,
+				40310D4128D4DB3500ED78AF /* ReplaceSpaceInStr.cpp */,
 			);
 			path = LeetcodePractice;
 			sourceTree = "<group>";
@@ -486,6 +489,7 @@
 				40EC801628B0DB8900C929E4 /* LC142.cpp in Sources */,
 				40EC802128B0DB8900C929E4 /* LC283.cpp in Sources */,
 				40794CA22861B5E900DED5E5 /* main.m in Sources */,
+				40310D4228D4DB3500ED78AF /* ReplaceSpaceInStr.cpp in Sources */,
 				40EC801728B0DB8900C929E4 /* LC160.cpp in Sources */,
 				40EC801028B0DB8900C929E4 /* LC704.cpp in Sources */,
 				40EC802928B0F59700C929E4 /* LC54.cpp in Sources */,
