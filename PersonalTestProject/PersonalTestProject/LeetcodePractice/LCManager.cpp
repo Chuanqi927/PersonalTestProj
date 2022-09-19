@@ -14,11 +14,13 @@
 #include "LC59.cpp"
 #include "LC707.cpp"
 #include "LC151.cpp"
+#include "ReverseLeftWords.cpp"
 
 void LCManager::runTestCaseForCurrProblem() {
 //    LCTester54();
 //    LCTester13();
 //    LCTester59();
 //    LCTester707();
-    LCTester151();
+//    LCTester151();
+    reverseLeftWordsTester();
 }

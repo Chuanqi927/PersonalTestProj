@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10C3DB8A28B47718002630AB /* CPPComUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10C3DB8828B47717002630AB /* CPPComUtils.cpp */; };
+		4019FAC428D8B48B00C0F13E /* ReverseLeftWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FAC328D8B48B00C0F13E /* ReverseLeftWords.cpp */; };
 		40310D2A28B7D11900ED78AF /* LC707.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2928B7D11900ED78AF /* LC707.cpp */; };
 		40310D2C28BFB96900ED78AF /* LC242.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2B28BFB96900ED78AF /* LC242.cpp */; };
 		40310D2E28C0DA6100ED78AF /* LC349.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2D28C0DA6100ED78AF /* LC349.cpp */; };
@@ -87,6 +88,7 @@
 /* Begin PBXFileReference section */
 		10C3DB8828B47717002630AB /* CPPComUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPPComUtils.cpp; sourceTree = "<group>"; };
 		10C3DB8928B47717002630AB /* CPPComUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPPComUtils.hpp; sourceTree = "<group>"; };
+		4019FAC328D8B48B00C0F13E /* ReverseLeftWords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLeftWords.cpp; sourceTree = "<group>"; };
 		40310D2928B7D11900ED78AF /* LC707.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC707.cpp; sourceTree = "<group>"; };
 		40310D2B28BFB96900ED78AF /* LC242.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC242.cpp; sourceTree = "<group>"; };
 		40310D2D28C0DA6100ED78AF /* LC349.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC349.cpp; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 				40EC802628B0DBCB00C929E4 /* LCManager.hpp */,
 				40EC800728B0DB8900C929E4 /* ListNode.h */,
 				40310D4128D4DB3500ED78AF /* ReplaceSpaceInStr.cpp */,
+				4019FAC328D8B48B00C0F13E /* ReverseLeftWords.cpp */,
 			);
 			path = LeetcodePractice;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				40310D2E28C0DA6100ED78AF /* LC349.cpp in Sources */,
 				40310D2A28B7D11900ED78AF /* LC707.cpp in Sources */,
 				40EC801628B0DB8900C929E4 /* LC142.cpp in Sources */,
+				4019FAC428D8B48B00C0F13E /* ReverseLeftWords.cpp in Sources */,
 				40EC802128B0DB8900C929E4 /* LC283.cpp in Sources */,
 				40794CA22861B5E900DED5E5 /* main.m in Sources */,
 				40310D4228D4DB3500ED78AF /* ReplaceSpaceInStr.cpp in Sources */,
