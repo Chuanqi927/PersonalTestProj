@@ -13,10 +13,12 @@
 #include "LC54.cpp"
 #include "LC59.cpp"
 #include "LC707.cpp"
+#include "LC151.cpp"
 
 void LCManager::runTestCaseForCurrProblem() {
 //    LCTester54();
 //    LCTester13();
 //    LCTester59();
-    LCTester707();
+//    LCTester707();
+    LCTester151();
 }
