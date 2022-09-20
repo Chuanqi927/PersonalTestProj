@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		105C39E228D8816E00233E3A /* TPCExamPractice2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105C39E128D8816E00233E3A /* TPCExamPractice2.cpp */; };
+		105C39E428D9D64600233E3A /* TPCExam2022_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105C39E328D9D64600233E3A /* TPCExam2022_1.cpp */; };
 		10C3DB8A28B47718002630AB /* CPPComUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10C3DB8828B47717002630AB /* CPPComUtils.cpp */; };
 		4019FAC428D8B48B00C0F13E /* ReverseLeftWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FAC328D8B48B00C0F13E /* ReverseLeftWords.cpp */; };
 		40310D2A28B7D11900ED78AF /* LC707.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2928B7D11900ED78AF /* LC707.cpp */; };
@@ -86,6 +88,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105C39E128D8816E00233E3A /* TPCExamPractice2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TPCExamPractice2.cpp; sourceTree = "<group>"; };
+		105C39E328D9D64600233E3A /* TPCExam2022_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TPCExam2022_1.cpp; sourceTree = "<group>"; };
 		10C3DB8828B47717002630AB /* CPPComUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPPComUtils.cpp; sourceTree = "<group>"; };
 		10C3DB8928B47717002630AB /* CPPComUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPPComUtils.hpp; sourceTree = "<group>"; };
 		4019FAC328D8B48B00C0F13E /* ReverseLeftWords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLeftWords.cpp; sourceTree = "<group>"; };
@@ -189,6 +193,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		105C39E028D8814900233E3A /* AlgorithmPractice */ = {
+			isa = PBXGroup;
+			children = (
+				105C39E128D8816E00233E3A /* TPCExamPractice2.cpp */,
+				105C39E328D9D64600233E3A /* TPCExam2022_1.cpp */,
+			);
+			path = AlgorithmPractice;
+			sourceTree = "<group>";
+		};
 		40794C832861B5E800DED5E5 = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +225,7 @@
 		40794C8E2861B5E800DED5E5 /* PersonalTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				105C39E028D8814900233E3A /* AlgorithmPractice */,
 				40EC7FF728B0DB2C00C929E4 /* LeetcodePractice */,
 				40B958812873E0D600A3DC8E /* iOSBridgeCPP */,
 				40D0BEA2286BFD92001B6654 /* CPP */,
@@ -470,6 +484,7 @@
 				40EC802228B0DB8900C929E4 /* LC92.cpp in Sources */,
 				40310D3E28D36DB200ED78AF /* LC344.cpp in Sources */,
 				40EC801D28B0DB8900C929E4 /* LC977.cpp in Sources */,
+				105C39E228D8816E00233E3A /* TPCExamPractice2.cpp in Sources */,
 				40EC801428B0DB8900C929E4 /* LC141.cpp in Sources */,
 				40EC801F28B0DB8900C929E4 /* LC25.cpp in Sources */,
 				40EC802428B0DB8900C929E4 /* LC21.cpp in Sources */,
@@ -512,6 +527,7 @@
 				40310D3428C64E6600ED78AF /* LC1.cpp in Sources */,
 				40794C942861B5E800DED5E5 /* SceneDelegate.m in Sources */,
 				40EC801928B0DB8900C929E4 /* LC209.cpp in Sources */,
+				105C39E428D9D64600233E3A /* TPCExam2022_1.cpp in Sources */,
 				40310D3028C0EC5500ED78AF /* LC350.cpp in Sources */,
 				40EC800F28B0DB8900C929E4 /* LC27.cpp in Sources */,
 				40D0BEA5286BFDC8001B6654 /* CPPDataTypeTest.cpp in Sources */,
