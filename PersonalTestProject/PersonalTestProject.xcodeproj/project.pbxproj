@@ -11,6 +11,7 @@
 		105C39E428D9D64600233E3A /* TPCExam2022_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105C39E328D9D64600233E3A /* TPCExam2022_1.cpp */; };
 		10C3DB8A28B47718002630AB /* CPPComUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10C3DB8828B47717002630AB /* CPPComUtils.cpp */; };
 		4019FAC428D8B48B00C0F13E /* ReverseLeftWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FAC328D8B48B00C0F13E /* ReverseLeftWords.cpp */; };
+		4019FAC628E0674500C0F13E /* LC28.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FAC528E0674500C0F13E /* LC28.cpp */; };
 		40310D2A28B7D11900ED78AF /* LC707.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2928B7D11900ED78AF /* LC707.cpp */; };
 		40310D2C28BFB96900ED78AF /* LC242.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2B28BFB96900ED78AF /* LC242.cpp */; };
 		40310D2E28C0DA6100ED78AF /* LC349.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2D28C0DA6100ED78AF /* LC349.cpp */; };
@@ -93,6 +94,7 @@
 		10C3DB8828B47717002630AB /* CPPComUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPPComUtils.cpp; sourceTree = "<group>"; };
 		10C3DB8928B47717002630AB /* CPPComUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPPComUtils.hpp; sourceTree = "<group>"; };
 		4019FAC328D8B48B00C0F13E /* ReverseLeftWords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLeftWords.cpp; sourceTree = "<group>"; };
+		4019FAC528E0674500C0F13E /* LC28.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC28.cpp; sourceTree = "<group>"; };
 		40310D2928B7D11900ED78AF /* LC707.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC707.cpp; sourceTree = "<group>"; };
 		40310D2B28BFB96900ED78AF /* LC242.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC242.cpp; sourceTree = "<group>"; };
 		40310D2D28C0DA6100ED78AF /* LC349.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC349.cpp; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 				40EC800928B0DB8900C929E4 /* LC25.cpp */,
 				40EC7FFC28B0DB8800C929E4 /* LC26.cpp */,
 				40EC7FF828B0DB8800C929E4 /* LC27.cpp */,
+				4019FAC528E0674500C0F13E /* LC28.cpp */,
 				40EC802828B0F59700C929E4 /* LC54.cpp */,
 				40EC802A28B529F900C929E4 /* LC59.cpp */,
 				40EC800A28B0DB8900C929E4 /* LC76.cpp */,
@@ -529,6 +532,7 @@
 				40EC801928B0DB8900C929E4 /* LC209.cpp in Sources */,
 				105C39E428D9D64600233E3A /* TPCExam2022_1.cpp in Sources */,
 				40310D3028C0EC5500ED78AF /* LC350.cpp in Sources */,
+				4019FAC628E0674500C0F13E /* LC28.cpp in Sources */,
 				40EC800F28B0DB8900C929E4 /* LC27.cpp in Sources */,
 				40D0BEA5286BFDC8001B6654 /* CPPDataTypeTest.cpp in Sources */,
 				40EC802028B0DB8900C929E4 /* LC76.cpp in Sources */,
