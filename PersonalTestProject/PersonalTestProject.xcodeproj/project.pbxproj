@@ -12,7 +12,9 @@
 		10C3DB8A28B47718002630AB /* CPPComUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10C3DB8828B47717002630AB /* CPPComUtils.cpp */; };
 		4019FAC428D8B48B00C0F13E /* ReverseLeftWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FAC328D8B48B00C0F13E /* ReverseLeftWords.cpp */; };
 		4019FAC628E0674500C0F13E /* LC28_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FAC528E0674500C0F13E /* LC28_strStr.cpp */; };
-		4019FAC828E078CE00C0F13E /* LC459_RepeatedSubstringPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FAC728E078CE00C0F13E /* LC459_RepeatedSubstringPattern.cpp */; };
+		4019FAC828E078CE00C0F13E /* LC459_repeatedSubstringPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FAC728E078CE00C0F13E /* LC459_repeatedSubstringPattern.cpp */; };
+		4019FACA28E3522000C0F13E /* LC232_MyQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FAC928E3522000C0F13E /* LC232_MyQueue.cpp */; };
+		4019FACC28E3558200C0F13E /* LC225_MyStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4019FACB28E3558200C0F13E /* LC225_MyStack.cpp */; };
 		40310D2A28B7D11900ED78AF /* LC707_MyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2928B7D11900ED78AF /* LC707_MyLinkedList.cpp */; };
 		40310D2C28BFB96900ED78AF /* LC242_isAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2B28BFB96900ED78AF /* LC242_isAnagram.cpp */; };
 		40310D2E28C0DA6100ED78AF /* LC349_intersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40310D2D28C0DA6100ED78AF /* LC349_intersection.cpp */; };
@@ -95,7 +97,9 @@
 		10C3DB8928B47717002630AB /* CPPComUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPPComUtils.hpp; sourceTree = "<group>"; };
 		4019FAC328D8B48B00C0F13E /* ReverseLeftWords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLeftWords.cpp; sourceTree = "<group>"; };
 		4019FAC528E0674500C0F13E /* LC28_strStr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC28_strStr.cpp; sourceTree = "<group>"; };
-		4019FAC728E078CE00C0F13E /* LC459_RepeatedSubstringPattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC459_RepeatedSubstringPattern.cpp; sourceTree = "<group>"; };
+		4019FAC728E078CE00C0F13E /* LC459_repeatedSubstringPattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC459_repeatedSubstringPattern.cpp; sourceTree = "<group>"; };
+		4019FAC928E3522000C0F13E /* LC232_MyQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC232_MyQueue.cpp; sourceTree = "<group>"; };
+		4019FACB28E3558200C0F13E /* LC225_MyStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC225_MyStack.cpp; sourceTree = "<group>"; };
 		40310D2928B7D11900ED78AF /* LC707_MyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC707_MyLinkedList.cpp; sourceTree = "<group>"; };
 		40310D2B28BFB96900ED78AF /* LC242_isAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC242_isAnagram.cpp; sourceTree = "<group>"; };
 		40310D2D28C0DA6100ED78AF /* LC349_intersection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC349_intersection.cpp; sourceTree = "<group>"; };
@@ -329,6 +333,8 @@
 				40EC802C28B6853700C929E4 /* LC203_removeElements.cpp */,
 				40EC800D28B0DB8900C929E4 /* LC206_reverseList.cpp */,
 				40EC800228B0DB8900C929E4 /* LC209_minSubArrayLen.cpp */,
+				4019FACB28E3558200C0F13E /* LC225_MyStack.cpp */,
+				4019FAC928E3522000C0F13E /* LC232_MyQueue.cpp */,
 				40310D2B28BFB96900ED78AF /* LC242_isAnagram.cpp */,
 				40EC800B28B0DB8900C929E4 /* LC283_moveZeroes.cpp */,
 				40310D3D28D36DB200ED78AF /* LC344_reverseString.cpp */,
@@ -336,7 +342,7 @@
 				40310D2F28C0EC5500ED78AF /* LC350_intersect.cpp */,
 				40310D3728C8EA0100ED78AF /* LC383_canConstruct.cpp */,
 				40310D3528C7A05000ED78AF /* LC454_fourSumCount.cpp */,
-				4019FAC728E078CE00C0F13E /* LC459_RepeatedSubstringPattern.cpp */,
+				4019FAC728E078CE00C0F13E /* LC459_repeatedSubstringPattern.cpp */,
 				40310D3F28D371B800ED78AF /* LC541_reverseStr.cpp */,
 				40EC7FF928B0DB8800C929E4 /* LC704_search.cpp */,
 				40310D2928B7D11900ED78AF /* LC707_MyLinkedList.cpp */,
@@ -483,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40EC802328B0DB8900C929E4 /* LC206_reverseList.cpp in Sources */,
+				4019FACC28E3558200C0F13E /* LC225_MyStack.cpp in Sources */,
 				40EC802228B0DB8900C929E4 /* LC92_reverseBetween.cpp in Sources */,
 				40310D3E28D36DB200ED78AF /* LC344_reverseString.cpp in Sources */,
 				40EC801D28B0DB8900C929E4 /* LC977_sortedSquares.cpp in Sources */,
@@ -491,7 +498,7 @@
 				40EC801F28B0DB8900C929E4 /* LC25_reverseKGroup.cpp in Sources */,
 				40EC802428B0DB8900C929E4 /* LC21_mergeTwoLists.cpp in Sources */,
 				10C3DB8A28B47718002630AB /* CPPComUtils.cpp in Sources */,
-				4019FAC828E078CE00C0F13E /* LC459_RepeatedSubstringPattern.cpp in Sources */,
+				4019FAC828E078CE00C0F13E /* LC459_repeatedSubstringPattern.cpp in Sources */,
 				40EC801B28B0DB8900C929E4 /* LC844_backspaceCompare.cpp in Sources */,
 				40EC801328B0DB8900C929E4 /* LC26_removeDuplicates.cpp in Sources */,
 				40EC802D28B6853700C929E4 /* LC203_removeElements.cpp in Sources */,
@@ -523,6 +530,7 @@
 				40310D3C28D21FFD00ED78AF /* LC18_fourSum.cpp in Sources */,
 				40310D4028D371B800ED78AF /* LC541_reverseStr.cpp in Sources */,
 				40D0BEA8286C029B001B6654 /* TestManager.mm in Sources */,
+				4019FACA28E3522000C0F13E /* LC232_MyQueue.cpp in Sources */,
 				40EC801A28B0DB8900C929E4 /* LC24_swapPairs.cpp in Sources */,
 				40310D3628C7A05000ED78AF /* LC454_fourSumCount.cpp in Sources */,
 				40EC801C28B0DB8900C929E4 /* LC904_totalFruit.cpp in Sources */,
