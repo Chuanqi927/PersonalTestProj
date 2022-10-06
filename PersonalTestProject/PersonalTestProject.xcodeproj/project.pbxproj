@@ -49,6 +49,7 @@
 		40D0BEA5286BFDC8001B6654 /* CPPDataTypeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40D0BEA3286BFDC8001B6654 /* CPPDataTypeTest.cpp */; };
 		40D0BEA8286C029B001B6654 /* TestManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 40D0BEA7286C029B001B6654 /* TestManager.mm */; };
 		40E1DC6328E49DD400D8DFC4 /* LC1209_removeDuplicates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E1DC6228E49DD400D8DFC4 /* LC1209_removeDuplicates.cpp */; };
+		40E1DC6528EF0E4A00D8DFC4 /* LC239_maxSlidingWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E1DC6428EF0E4A00D8DFC4 /* LC239_maxSlidingWindow.cpp */; };
 		40EC800F28B0DB8900C929E4 /* LC27_removeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FF828B0DB8800C929E4 /* LC27_removeElement.cpp */; };
 		40EC801028B0DB8900C929E4 /* LC704_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FF928B0DB8800C929E4 /* LC704_search.cpp */; };
 		40EC801128B0DB8900C929E4 /* LC19_removeNthFromEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FFA28B0DB8800C929E4 /* LC19_removeNthFromEnd.cpp */; };
@@ -151,6 +152,7 @@
 		40D0BEA6286C029A001B6654 /* TestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
 		40D0BEA7286C029B001B6654 /* TestManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestManager.mm; sourceTree = "<group>"; };
 		40E1DC6228E49DD400D8DFC4 /* LC1209_removeDuplicates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC1209_removeDuplicates.cpp; sourceTree = "<group>"; };
+		40E1DC6428EF0E4A00D8DFC4 /* LC239_maxSlidingWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC239_maxSlidingWindow.cpp; sourceTree = "<group>"; };
 		40EC7FF828B0DB8800C929E4 /* LC27_removeElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC27_removeElement.cpp; sourceTree = "<group>"; };
 		40EC7FF928B0DB8800C929E4 /* LC704_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC704_search.cpp; sourceTree = "<group>"; };
 		40EC7FFA28B0DB8800C929E4 /* LC19_removeNthFromEnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC19_removeNthFromEnd.cpp; sourceTree = "<group>"; };
@@ -358,6 +360,7 @@
 				40EC800628B0DB8900C929E4 /* LC977_sortedSquares.cpp */,
 				40B2210F28E48B1E004586AE /* LC1047_removeDuplicates.cpp */,
 				40E1DC6228E49DD400D8DFC4 /* LC1209_removeDuplicates.cpp */,
+				40E1DC6428EF0E4A00D8DFC4 /* LC239_maxSlidingWindow.cpp */,
 				40EC802528B0DBCB00C929E4 /* LCManager.cpp */,
 				40EC802628B0DBCB00C929E4 /* LCManager.hpp */,
 				40EC800728B0DB8900C929E4 /* ListNode.h */,
@@ -512,6 +515,7 @@
 				40EC801328B0DB8900C929E4 /* LC26_removeDuplicates.cpp in Sources */,
 				40EC802D28B6853700C929E4 /* LC203_removeElements.cpp in Sources */,
 				40310D3228C4F42A00ED78AF /* LC202_isHappy.cpp in Sources */,
+				40E1DC6528EF0E4A00D8DFC4 /* LC239_maxSlidingWindow.cpp in Sources */,
 				40B958872875AB8A00A3DC8E /* NativeCPPManager.m in Sources */,
 				40EC801528B0DB8900C929E4 /* LC2_addTwoNumbers.cpp in Sources */,
 				40794C972861B5E800DED5E5 /* ViewController.m in Sources */,
