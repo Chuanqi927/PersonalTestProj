@@ -51,6 +51,7 @@
 		40E1DC6328E49DD400D8DFC4 /* LC1209_removeDuplicates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E1DC6228E49DD400D8DFC4 /* LC1209_removeDuplicates.cpp */; };
 		40E1DC6528EF0E4A00D8DFC4 /* LC239_maxSlidingWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E1DC6428EF0E4A00D8DFC4 /* LC239_maxSlidingWindow.cpp */; };
 		40E1DC6728EF2DE100D8DFC4 /* LC347_topKFrequent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E1DC6628EF2DE100D8DFC4 /* LC347_topKFrequent.cpp */; };
+		40E1DC6928F0550300D8DFC4 /* LC71_simplifyPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E1DC6828F0550300D8DFC4 /* LC71_simplifyPath.cpp */; };
 		40EC800F28B0DB8900C929E4 /* LC27_removeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FF828B0DB8800C929E4 /* LC27_removeElement.cpp */; };
 		40EC801028B0DB8900C929E4 /* LC704_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FF928B0DB8800C929E4 /* LC704_search.cpp */; };
 		40EC801128B0DB8900C929E4 /* LC19_removeNthFromEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40EC7FFA28B0DB8800C929E4 /* LC19_removeNthFromEnd.cpp */; };
@@ -155,6 +156,7 @@
 		40E1DC6228E49DD400D8DFC4 /* LC1209_removeDuplicates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC1209_removeDuplicates.cpp; sourceTree = "<group>"; };
 		40E1DC6428EF0E4A00D8DFC4 /* LC239_maxSlidingWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC239_maxSlidingWindow.cpp; sourceTree = "<group>"; };
 		40E1DC6628EF2DE100D8DFC4 /* LC347_topKFrequent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC347_topKFrequent.cpp; sourceTree = "<group>"; };
+		40E1DC6828F0550300D8DFC4 /* LC71_simplifyPath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LC71_simplifyPath.cpp; sourceTree = "<group>"; };
 		40EC7FF828B0DB8800C929E4 /* LC27_removeElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC27_removeElement.cpp; sourceTree = "<group>"; };
 		40EC7FF928B0DB8800C929E4 /* LC704_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC704_search.cpp; sourceTree = "<group>"; };
 		40EC7FFA28B0DB8800C929E4 /* LC19_removeNthFromEnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LC19_removeNthFromEnd.cpp; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 				40EC800628B0DB8900C929E4 /* LC977_sortedSquares.cpp */,
 				40B2210F28E48B1E004586AE /* LC1047_removeDuplicates.cpp */,
 				40E1DC6228E49DD400D8DFC4 /* LC1209_removeDuplicates.cpp */,
+				40E1DC6828F0550300D8DFC4 /* LC71_simplifyPath.cpp */,
 				40EC802528B0DBCB00C929E4 /* LCManager.cpp */,
 				40EC802628B0DBCB00C929E4 /* LCManager.hpp */,
 				40EC800728B0DB8900C929E4 /* ListNode.h */,
@@ -525,6 +528,7 @@
 				40B9587D2873C75700A3DC8E /* CPPSampleTestManager.cpp in Sources */,
 				40B958842873E14400A3DC8E /* CPPBridgeManager.mm in Sources */,
 				40310D3828C8EA0100ED78AF /* LC383_canConstruct.cpp in Sources */,
+				40E1DC6928F0550300D8DFC4 /* LC71_simplifyPath.cpp in Sources */,
 				40E1DC6328E49DD400D8DFC4 /* LC1209_removeDuplicates.cpp in Sources */,
 				40794C912861B5E800DED5E5 /* AppDelegate.m in Sources */,
 				40EC802B28B529F900C929E4 /* LC59_generateMatrix.cpp in Sources */,
