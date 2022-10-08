@@ -10,7 +10,8 @@
 
 #include <stdio.h>
 #include <vector>
-#include "ListNode.h"
+#include "../LeetcodePractice/ListNode.h"
+#include "../LeetcodePractice/TreeNode.h"
 #include <unordered_map>
 #include <unordered_set>
 #include <iostream>
