@@ -28,6 +28,9 @@ std::vector<int> generateRandomVector();
 //MARK: LinkedList
 void printLinkedList(ListNode *head);
 
+//MARK: String
+std::vector<std::string> strSplit(std::string s, std::string delimiter);
+
 }
 
 

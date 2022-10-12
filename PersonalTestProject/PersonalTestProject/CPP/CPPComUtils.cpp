@@ -56,3 +56,20 @@ void CPPComUtils::printLinkedList(ListNode *head) {
     std::cout << "---------Finished Printing the LinkedList---------" << std::endl;
     std::cout << "" << std::endl;
 }
+
+using namespace std;
+
+vector<string> strSplit(string s, string delimiter) {
+    size_t start = 0, end, delim_len = delimiter.length();
+    string token;
+    vector<string> res;
+
+    while ((end = s.find(delimiter, start)) != string::npos) {
+        token = s.substr(start, end - start);
+        start = end + delim_len;
+        res.push_back(token);
+    }
+
+    res.push_back(s.substr(start));
+    return res;
+}
